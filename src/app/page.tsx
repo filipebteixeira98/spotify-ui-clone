@@ -82,7 +82,7 @@ export default function Home() {
               />
               <strong>Wasting Light</strong>
               <button className="w-12 h-12 flex items-center justify-center pl-1 rounded-full bg-green-400 text-black ml-auto mr-10 invisible group-hover:visible">
-                <Play />
+                <Play fill="bg-black" />
               </button>
             </a>
             <a
@@ -92,12 +92,12 @@ export default function Home() {
               <Image
                 width={104}
                 height={104}
-                src="/thriller-album.jpg"
+                src="/thriller-album.png"
                 alt="Cover of the album Thriller by the band Michael Jackson"
               />
               <strong>Thriller</strong>
               <button className="w-12 h-12 flex items-center justify-center pl-1 rounded-full bg-green-400 text-black ml-auto mr-10 invisible group-hover:visible">
-                <Play />
+                <Play fill="bg-black" />
               </button>
             </a>
             <a
@@ -112,7 +112,7 @@ export default function Home() {
               />
               <strong>Abbey Road</strong>
               <button className="w-12 h-12 flex items-center justify-center pl-1 rounded-full bg-green-400 text-black ml-auto mr-10 invisible group-hover:visible">
-                <Play />
+                <Play fill="bg-black" />
               </button>
             </a>
             <a
@@ -127,7 +127,7 @@ export default function Home() {
               />
               <strong>Nevermind</strong>
               <button className="w-12 h-12 flex items-center justify-center pl-1 rounded-full bg-green-400 text-black ml-auto mr-10 invisible group-hover:visible">
-                <Play />
+                <Play fill="bg-black" />
               </button>
             </a>
             <a
@@ -137,12 +137,12 @@ export default function Home() {
               <Image
                 width={104}
                 height={104}
-                src="/rumours-album.jpg"
+                src="/rumours-album.png"
                 alt="Cover of the album Rumours by the band Fleetwood Mac"
               />
               <strong>Rumours</strong>
               <button className="w-12 h-12 flex items-center justify-center pl-1 rounded-full bg-green-400 text-black ml-auto mr-10 invisible group-hover:visible">
-                <Play />
+                <Play fill="bg-black" />
               </button>
             </a>
             <a
@@ -157,7 +157,7 @@ export default function Home() {
               />
               <strong>What&apos;s Going On</strong>
               <button className="w-12 h-12 flex items-center justify-center pl-1 rounded-full bg-green-400 text-black ml-auto mr-10 invisible group-hover:visible">
-                <Play />
+                <Play fill="bg-black" />
               </button>
             </a>
           </div>
@@ -235,7 +235,7 @@ export default function Home() {
                 className="w-full"
                 width={120}
                 height={120}
-                src="/daily-mix-5.jpg"
+                src="/daily-mix-5.jpeg"
                 alt="Cover of the album What's Going On by the band Marvin Gaye"
               />
               <strong className="font-semibold">Daily Mix 5</strong>
