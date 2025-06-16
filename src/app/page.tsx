@@ -27,6 +27,7 @@ export default function Home() {
               <Image
                 width={104}
                 height={104}
+                priority
                 src="/wasting-light-album.jpg"
                 alt="Cover of the album Wasting Light by the band Foo Fighters"
               />
